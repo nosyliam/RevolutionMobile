@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Get help on Discord
+    url: https://discord.gg/revolutionmacro
+    about: The fastest way to get help with setup, pairing or the macro.
+  - name: Setup guide
+    url: https://github.com/nosyliam/RevolutionMobile/blob/main/docs/SETUP.md
+    about: From the download to your first field.
+  - name: Revolution Mobile docs
+    url: https://revolutionmacro.com/docs/mobile/
+    about: Guides for every setting.

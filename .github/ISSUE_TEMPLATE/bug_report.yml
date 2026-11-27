@@ -1,0 +1,39 @@
+name: Bug report
+description: Something in Revolution Mobile isn't working
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Check [Troubleshooting](https://github.com/nosyliam/RevolutionMobile/blob/main/docs/TROUBLESHOOTING.md) first: most setup and connection problems have a fix there.
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android version
+      placeholder: Samsung Galaxy A26, Android 16
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Revolution Mobile version
+      description: Settings › About Revolution Mobile
+      placeholder: 0.2.4
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you tapped, what the app or the floating controls said, and what the macro did.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+  - type: textarea
+    id: shots
+    attributes:
+      label: Screenshots
+      description: Drag screenshots here. Hide other players' names if you can.
